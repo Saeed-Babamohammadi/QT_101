@@ -16,6 +16,12 @@ public:
     ~MainWindow();
 
 private:
+    void cnt1SlotFunc();
+
+    int cnt1=0;
+    int cnt2=0;
+
+private:
     Ui::MainWindow *ui;
 };
 #endif // MAINWINDOW_H
