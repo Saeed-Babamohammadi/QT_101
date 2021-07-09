@@ -15,6 +15,9 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+private slots:
+    void on_cnt2_btn_clicked();
+
 private:
     void cnt1SlotFunc();
 
