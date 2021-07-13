@@ -27,6 +27,7 @@ void MainWindow::cnt1SlotFunc()
 void MainWindow::on_cnt2_btn_clicked()
 {
     cnt2 +=1;
+    // Comments
     qInfo() << "Button 2 Clicked" << cnt2;
     ui->cnt2_lineEdit->setText(QString::number(cnt2));
 }
